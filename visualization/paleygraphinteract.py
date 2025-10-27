@@ -34,7 +34,7 @@ def paley_graph(q):
     return G
 
 # ---- PARAMETERS ----
-q = 13   # change this to any prime-power q ≡ 1 (mod 4). Keep it modest for clarity.
+q = 13   # change this to any prime-power q ≡ 1 (mod 4).
 # --------------------
 
 G = paley_graph(q)
