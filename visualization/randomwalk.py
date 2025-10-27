@@ -54,7 +54,7 @@ for name, G in graphs.items():
     tvd, eigvals, gap = random_walk_mixing(G)
     plt.plot(tvd, label=f"{name} (λ₂={eigvals[1]:.2f}, gap={gap:.2f})")
 
-plt.title("Random Walk Convergence to Stationary Distribution")
+plt.title("Random Walk Convergence to Stable Distribution")
 plt.xlabel("Steps")
 plt.ylabel("Total Variation Distance")
 plt.legend()
